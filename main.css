@@ -1,0 +1,142 @@
+html{
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  background-color: #2643d4;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  font-size: 1.3rem;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+}
+.nav-list {
+  display: flex;
+  color: white;
+  margin-right: 2rem;
+  list-style: none;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav-list a{
+  color: white;
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+@media (max-width: 20em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  align-items: center;
+  padding-top: 70px;
+  /*background-color: black;
+  color: white;*/
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#welcome-section{
+  text-align: center;
+}
+.contact{
+  background: url("https://i.redd.it/kjyb0i8w9o261.jpg");
+  background-size: auto;
+  padding: 20px;
+  color: white;
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2rem;
+}
+.profile-link {
+  display: flex;
+  flex: 45%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 45%;
+  padding: 0.5rem;
+  
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10px; 
+}
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-size: 2em;
+  background-image: url("https://preview.redd.it/kyf3ow9k8el51.jpg?width=2560&format=pjpg&auto=webp&s=5900aa4abcb45b499dcc2ff892a8f0ea596eef5d");
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-img{
+  width: 100%;
+  float: left;
+  margin: 5px;
+}
+.project-label{
+  color: white;
+}
+.project-div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 40%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  
+  text-align: center;
+  padding: 2rem 2rem;
+  
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  
+  background-color: #fd3a4a;
+  transition: transform .2s;
+  
+}
+.project-div:hover {
+  transform: scale(1.05);
+}
+p{
+  font-size: 20px;
+  font-weight: strong;
+}
