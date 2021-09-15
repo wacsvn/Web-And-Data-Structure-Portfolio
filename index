@@ -1,0 +1,110 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<nav id="navbar" class="navbar">
+  <ul class="nav-ul">
+    <li><a href="#welcome-section">About</a></li>
+    <li><a href="#projects">My Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="welcome-section" class="welcome-section">
+  <h1>Welcome!</h1>
+  <p><i>Here you can explore some examples of my web design and data structure work</i></p>
+</section>
+
+<h1>This Summer's Projects</h1>
+<section id="projects" class ="projects">
+  
+  <div class="project-div">
+    
+    <a 
+       href="https://codepen.io/wacsun/full/zYzBLxL"
+       target="_blank"
+       class="project">
+    <img 
+         class="project-img"
+        src="https://i.ibb.co/kcqHmm8/Screenshot-2021-09-14-165847.jpg"
+         alt="Data Structure Documentation Page Screenshot"
+         >
+      <p class="project-label">Data Structure Documentation Page</p>
+    </a>
+  </div>
+  <div class="project-div">
+    <a 
+       href="https://codepen.io/wacsun/full/jOwPKZp"
+       target="_blank"
+       class="project">
+    <img 
+         class="project-img"
+         src="https://i.ibb.co/KDnSdhf/Screenshot-2021-09-14-171030.jpg"
+         alt="Charity Foundation Feedback Form Screenshot"
+         >
+      <p class="project-label">Charity Foundation Feedback Web Form</p>
+    </a>
+  </div>
+  <div class="project-div">
+    <a 
+       href="https://gametekia.webflow.io/"
+       target="_blank"
+       class="project">
+    <img 
+         class="project-img"
+         src="https://i.ibb.co/gvK348W/Screenshot-2021-09-14-201701.jpg"
+         alt="Charity Foundation Feedback Form Screenshot"
+         >
+      <p class="project-label">Video Game Developer Showcase Site</p>
+    </a>
+  </div>
+  <div class="project-div">
+    <a 
+       href="https://github.com/wacsvn/Data-Structures-for-Ecommerce"
+       target="_blank"
+       class="project">
+    <img 
+         class="project-img"
+         src="https://i.ibb.co/fphzGfd/Screenshot-2021-09-14-173920.jpg"
+         alt="Data Structure Project Diagram"
+         >
+      <p class="project-label">E-commerce Database System</p>
+    </a>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-header">
+    <h1>Check Out More</h1>
+  </div>
+  <div class="contacts">
+  <div class="profile-link">
+    <a
+       href="https://github.com/wacsvn?tab=repositories"
+       target="_blank"
+       class="contact-link"
+       >
+      <img 
+           src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
+           class="gh-logo"
+           width= 60%>
+      <h4><!--GitHub--></h4>
+    </a>
+    </div>
+  
+  <div class="profile-link">
+    <a
+       href="https://github.com/wacsvn?tab=repositories"
+       target="_blank"
+       class="contact-link"
+       >
+      <img 
+           src="https://www.danoneinstitute.org/wp-content/uploads/2020/06/logo-rond-twitter.png"
+           class="gh-logo"
+           width= 30%>
+      <h4><!--Twitter--></h4>
+    </a>
+  </div>
+    
+  </div>
+  
